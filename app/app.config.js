@@ -11,9 +11,9 @@ config(['$locationProvider', '$routeProvider',
         when('/heroes', {
           template: '<hero-list></hero-list>'
         }).
-        //when('/phones/:phoneId', {
-        //  template: '<phone-detail></phone-detail>'
-        //}).
+        when('/heroes/:heroId', {
+          template: '<hero-detail></hero-detail>'
+        }).
         otherwise('/heroes');
   }
 ]);
