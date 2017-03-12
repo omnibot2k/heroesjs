@@ -6,6 +6,14 @@ config(['$locationProvider', '$routeProvider',
   function($locationProvider, $routeProvider) {
     $locationProvider.hashPrefix('!');
     
-    $routeProvider.otherwise({redirectTo: '/view1'});
+    //$routeProvider.otherwise({redirectTo: '/view1'});
+    $routeProvider.
+        when('/heroes', {
+          template: '<hero-list></hero-list>'
+        }).
+        //when('/phones/:phoneId', {
+        //  template: '<phone-detail></phone-detail>'
+        //}).
+        otherwise('/heroes');
   }
 ]);
