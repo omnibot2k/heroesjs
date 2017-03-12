@@ -13,7 +13,8 @@ module.exports = function(config) {
       'view*/**/*.js',
       //asp 
       'core/*.js',
-      'core/hero/*.js'
+      'core/hero/*.js',
+      'core/checkmark/*.js'
     ],
 
     autoWatch: true,
