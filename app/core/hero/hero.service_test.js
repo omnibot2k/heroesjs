@@ -38,8 +38,9 @@ describe('Phone', function() {
     expect(heroes).toEqual([]);
 
     $httpBackend.flush();
-    debugger;
     expect(heroes).toEqual(heroesData);
+    //asp temp
+    expect(heroes.length).toEqual(3);
   });
 
 });
