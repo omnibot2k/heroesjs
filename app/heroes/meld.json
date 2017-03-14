@@ -1,0 +1,62 @@
+{
+    "abilities": "Sensors: proximity, ambient light, barometer, gyroscope", 
+    "born": {
+        "place": "New York, New York, USA", 
+        "date": -1288323623006
+    }, 
+    "affiliations": [
+        "Good Guys 1"
+    ], 
+    "battery": {
+        "standbyTime": "336 hours", 
+        "talkTime": "24 hours", 
+        "type": "Other ( mAH)"
+    }, 
+    "camera": {
+        "features": [
+            "Flash", 
+            "Video"
+        ], 
+        "primary": "5.0 megapixels"
+    }, 
+    "connectivity": {
+        "bluetooth": "Bluetooth 2.1", 
+        "cell": "", 
+        "gps": true, 
+        "infrared": false, 
+        "wifi": "802.11 b/g/n"
+    }, 
+    "description": "Meld is a mutant who has the ability to make himself appear as different people to other people.", 
+    "display": {
+        "screenResolution": "WXGA (1200 x 800)", 
+        "screenSize": "10.1 inches", 
+        "touchScreen": true
+    }, 
+    "hardware": {
+        "accelerometer": true, 
+        "audioJack": "3.5mm", 
+        "cpu": "1 GHz Dual Core Tegra 2", 
+        "fmRadio": false, 
+        "physicalKeyboard": false, 
+        "usb": "USB 2.0"
+    }, 
+    "id": "meld", 
+    "images": [
+        "img/heroes/meld.0.svg", 
+        "img/heroes/meld.1.svg", 
+        "img/heroes/meld.2.svg", 
+        "img/heroes/meld.3.svg"
+    ], 
+    "name": "Meld\u2122", 
+    "sizeAndWeight": {
+        "dimensions": [
+            "205.0 lbs (w)", 
+            "6' 0\" (h)"
+        ], 
+        "weight": "205.0 lbs"
+    }, 
+    "storage": {
+        "flash": "32000MB", 
+        "ram": "1000MB"
+    }
+}
