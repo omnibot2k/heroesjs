@@ -1,5 +1,5 @@
 <div class="hero-images">
-  <img ng-src="{{img}}" class="hero"
+  <img ng-src="{{img}}" class="hero" height="200"
       ng-class="{selected: img === $ctrl.mainImageUrl}"
       ng-repeat="img in $ctrl.hero.images" />
 </div>
@@ -10,16 +10,16 @@
 
 <ul class="hero-thumbs">
   <li ng-repeat="img in $ctrl.hero.images">
-    <img ng-src="{{img}}" ng-click="$ctrl.setImage(img)" />
+    <img ng-src="{{img}}" ng-click="$ctrl.setImage(img)" height="100"/>
   </li>
 </ul>
 
 <ul class="specs">
   <li>
-    <span>Availability and Networks</span>
+    <span>Affiliations</span>
     <dl>
-      <dt>Availability</dt>
-      <dd ng-repeat="availability in $ctrl.hero.availability">{{availability}}</dd>
+      <dt>Friendly Affiliations</dt>
+      <dd ng-repeat="affiliation in $ctrl.hero.affiliations">{{affiliation}}</dd>
     </dl>
   </li>
   <li>
@@ -58,12 +58,12 @@
     </dl>
   </li>
   <li>
-    <span>Android</span>
+    <span>Born</span>
     <dl>
-      <dt>OS Version</dt>
-      <dd>{{$ctrl.hero.android.os}}</dd>
-      <dt>UI</dt>
-      <dd>{{$ctrl.hero.android.ui}}</dd>
+      <dt>Place</dt>
+      <dd>{{$ctrl.hero.born.place}}</dd>
+      <dt>Date</dt>
+      <dd>{{$ctrl.hero.born.date | date:"MM/dd/yyyy"}}</dd>
     </dl>
   </li>
   <li>
@@ -111,7 +111,7 @@
     </dl>
   </li>
   <li>
-    <span>Additional Features</span>
-    <dd>{{$ctrl.hero.additionalFeatures}}</dd>
+    <span>Ablities</span>
+    <dd>{{$ctrl.hero.abilities}}</dd>
   </li>
 </ul>

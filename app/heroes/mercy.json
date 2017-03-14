@@ -1,11 +1,12 @@
 {
-    "additionalFeatures": "Front-facing camera. Sensors: proximity, ambient light, barometer, gyroscope.", 
-    "android": {
-        "os": "Android 3.0", 
-        "ui": "Android"
+    "abilities": "Front-facing camera. Sensors: proximity, ambient light, barometer, gyroscope.", 
+    "born": {
+        "place": "Washington, DC", 
+        "date": 0
     }, 
-    "availability": [
-        "Verizon"
+    "affiliations": [
+        "Good Guys 1",
+        "Good Guys 2"
     ], 
     "battery": {
         "standbyTime": "336 hours", 
@@ -26,7 +27,7 @@
         "infrared": false, 
         "wifi": "802.11 a/b/g/n"
     }, 
-    "description": "MOTOROLA XOOM has a super-powerful dual-core processor and Android\u2122 3.0 (Honeycomb) \u2014 the Android platform designed specifically for tablets. With its 10.1-inch HD widescreen display, you\u2019ll enjoy HD video in a thin, light, powerful and upgradeable tablet.", 
+    "description": "Mercy is a trained mixed martial arts expert.  She has been genetically enhanced as part of a covert mission to create the next generation of super soldiers", 
     "display": {
         "screenResolution": "WXGA (1200 x 800)", 
         "screenSize": "10.1 inches", 
@@ -40,20 +41,20 @@
         "physicalKeyboard": false, 
         "usb": "USB 2.0"
     }, 
-    "id": "motorola-xoom", 
+    "id": "mercy", 
     "images": [
-        "img/phones/motorola-xoom.0.jpg", 
-        "img/phones/motorola-xoom.1.jpg", 
-        "img/phones/motorola-xoom.2.jpg"
+        "img/heroes/mercy.0.svg", 
+        "img/heroes/mercy.1.svg", 
+        "img/heroes/mercy.2.svg", 
+        "img/heroes/mercy.3.svg"
     ], 
-    "name": "MOTOROLA XOOM\u2122", 
+    "name": "MERCY\u2122", 
     "sizeAndWeight": {
         "dimensions": [
-            "249.0 mm (w)", 
-            "168.0 mm (h)", 
-            "12.7 mm (d)"
+            "135.0 lbs (w)", 
+            "5' 6\" (h)"
         ], 
-        "weight": "726.0 grams"
+        "weight": "135.0 lbs"
     }, 
     "storage": {
         "flash": "32000MB", 
