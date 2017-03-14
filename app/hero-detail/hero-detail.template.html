@@ -16,6 +16,38 @@
 
 <ul class="specs">
   <li>
+    <span>Abilities</span>
+    <dl>
+      <dt>Ability</dt>
+      <dd ng-repeat="ability in $ctrl.hero.abilities">{{ability}}</dd>
+    </dl>
+  </li>
+  <li>
+    <span>Attributes</span>
+    <dl>
+      <dt>Strength</dt>
+      <dd>{{$ctrl.hero.attribute.strength}}</dd>
+      <dt>Constitution</dt>
+      <dd>{{$ctrl.hero.attribute.constitution}}</dd>
+      <dt>Defense</dt>
+      <dd>{{$ctrl.hero.attribute.defense}}</dd>
+      <dt>Dexterity</dt>
+      <dd>{{$ctrl.hero.attribute.dexterity}}</dd>
+      <dt>Intelligence</dt>
+      <dd>{{$ctrl.hero.attribute.intelligence}}</dd>
+      <dt>Charisma</dt>
+      <dd>{{$ctrl.hero.attribute.charisma}}</dd>
+      <dt>Wisdom</dt>
+      <dd>{{$ctrl.hero.attribute.wisdom}}</dd>
+      <dt>Willpower</dt>
+      <dd>{{$ctrl.hero.attribute.willpower}}</dd>
+      <dt>Perception</dt>
+      <dd>{{$ctrl.hero.attribute.perception}}</dd>
+      <dt>Luck</dt>
+      <dd>{{$ctrl.hero.attribute.luck}}</dd>
+    </dl>
+  </li>
+  <li>
     <span>Associations</span>
     <dl>
       <dt>Friends</dt>
@@ -24,41 +56,6 @@
     <dl>
       <dt>Enemies</dt>
       <dd ng-repeat="association in $ctrl.hero.association.enemies">{{association}}</dd>
-    </dl>
-  </li>
-  <li>
-    <span>Battery</span>
-    <dl>
-      <dt>Type</dt>
-      <dd>{{$ctrl.hero.battery.type}}</dd>
-      <dt>Talk Time</dt>
-      <dd>{{$ctrl.hero.battery.talkTime}}</dd>
-      <dt>Standby time (max)</dt>
-      <dd>{{$ctrl.hero.battery.standbyTime}}</dd>
-    </dl>
-  </li>
-  <li>
-    <span>Storage and Memory</span>
-    <dl>
-      <dt>RAM</dt>
-      <dd>{{$ctrl.hero.storage.ram}}</dd>
-      <dt>Internal Storage</dt>
-      <dd>{{$ctrl.hero.storage.flash}}</dd>
-    </dl>
-  </li>
-  <li>
-    <span>Connectivity</span>
-    <dl>
-      <dt>Network Support</dt>
-      <dd>{{$ctrl.hero.connectivity.cell}}</dd>
-      <dt>WiFi</dt>
-      <dd>{{$ctrl.hero.connectivity.wifi}}</dd>
-      <dt>Bluetooth</dt>
-      <dd>{{$ctrl.hero.connectivity.bluetooth}}</dd>
-      <dt>Infrared</dt>
-      <dd>{{$ctrl.hero.connectivity.infrared | checkmark}}</dd>
-      <dt>GPS</dt>
-      <dd>{{$ctrl.hero.connectivity.gps | checkmark}}</dd>
     </dl>
   </li>
   <li>
@@ -80,15 +77,8 @@
     </dl>
   </li>
   <li>
-    <span>Display</span>
-    <dl>
-      <dt>Screen size</dt>
-      <dd>{{$ctrl.hero.display.screenSize}}</dd>
-      <dt>Screen resolution</dt>
-      <dd>{{$ctrl.hero.display.screenResolution}}</dd>
-      <dt>Touch screen</dt>
-      <dd>{{$ctrl.hero.display.touchScreen | checkmark}}</dd>
-    </dl>
+    <span>Hair Color</span>
+    <dd>{{$ctrl.hero.hairColor}}</dd>
   </li>
   <li>
     <span>Hardware</span>
@@ -104,18 +94,5 @@
       <dt>Accelerometer</dt>
       <dd>{{$ctrl.hero.hardware.accelerometer | checkmark}}</dd>
     </dl>
-  </li>
-  <li>
-    <span>Camera</span>
-    <dl>
-      <dt>Primary</dt>
-      <dd>{{$ctrl.hero.camera.primary}}</dd>
-      <dt>Features</dt>
-      <dd>{{$ctrl.hero.camera.features.join(', ')}}</dd>
-    </dl>
-  </li>
-  <li>
-    <span>Ablities</span>
-    <dd>{{$ctrl.hero.abilities}}</dd>
   </li>
 </ul>

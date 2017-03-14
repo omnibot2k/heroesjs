@@ -1,5 +1,9 @@
 {
-    "abilities": "Front-facing camera. Sensors: proximity, ambient light, barometer, gyroscope.", 
+    "abilities": [
+        "double-time",
+        "fists-of-fury",
+        "psycho-blast"
+      ],
     "born": {
         "place": "Washington, DC", 
         "date": 0
@@ -13,31 +17,19 @@
           "The Antagonists"
         ]
     }, 
-    "battery": {
-        "standbyTime": "336 hours", 
-        "talkTime": "24 hours", 
-        "type": "Other (3250 mAH)"
+   "attribute": {
+        "strength": 8, 
+        "constitution": 6, 
+        "defense": 6, 
+        "dexterity": 6, 
+        "intelligence": 5, 
+        "charisma": 7, 
+        "wisdom": 5, 
+        "willpower": 5, 
+        "perception": 5, 
+        "luck": 5
     }, 
-    "camera": {
-        "features": [
-            "Flash", 
-            "Video"
-        ], 
-        "primary": "5.0 megapixels"
-    }, 
-    "connectivity": {
-        "bluetooth": "Bluetooth 2.1", 
-        "cell": "CDMA 800 /1900 LTE 700, Rx diversity in all bands", 
-        "gps": true, 
-        "infrared": false, 
-        "wifi": "802.11 a/b/g/n"
-    }, 
-    "description": "Mercy is a trained mixed martial arts expert.  She has been genetically enhanced as part of a covert mission to create the next generation of super soldiers", 
-    "display": {
-        "screenResolution": "WXGA (1200 x 800)", 
-        "screenSize": "10.1 inches", 
-        "touchScreen": true
-    }, 
+    "description": "Mercy is a trained mixed martial arts expert.  She has been genetically enhanced as part of a covert mission to create the next generation of super soldiers",
     "hardware": {
         "accelerometer": true, 
         "audioJack": "3.5mm", 
@@ -61,8 +53,5 @@
         ], 
         "weight": "135.0 lbs"
     }, 
-    "storage": {
-        "flash": "32000MB", 
-        "ram": "1000MB"
-    }
+    "hairColor": "Blonde"
 }
