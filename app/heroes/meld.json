@@ -4,9 +4,16 @@
         "place": "New York, New York, USA", 
         "date": -1288323623006
     }, 
-    "affiliations": [
-        "Good Guys 1"
-    ], 
+    "association": { 
+        "allies": [
+          "The Brotherhood",
+          "The Good Guys"
+        ],
+        "enemies": [
+          "Bad Dudes",
+          "Read Bad Dudes"
+        ]
+    }, 
     "battery": {
         "standbyTime": "336 hours", 
         "talkTime": "24 hours", 

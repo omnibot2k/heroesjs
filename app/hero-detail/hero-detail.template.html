@@ -16,10 +16,14 @@
 
 <ul class="specs">
   <li>
-    <span>Affiliations</span>
+    <span>Associations</span>
     <dl>
-      <dt>Friendly Affiliations</dt>
-      <dd ng-repeat="affiliation in $ctrl.hero.affiliations">{{affiliation}}</dd>
+      <dt>Friends</dt>
+      <dd ng-repeat="association in $ctrl.hero.association.allies">{{association}}</dd>
+    </dl>
+    <dl>
+      <dt>Enemies</dt>
+      <dd ng-repeat="association in $ctrl.hero.association.enemies">{{association}}</dd>
     </dl>
   </li>
   <li>
