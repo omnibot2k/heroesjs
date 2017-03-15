@@ -1,37 +1,36 @@
 {
-    "abilities": "Sensors: proximity, ambient light, barometer, gyroscope", 
+    "abilities": [
+        "shape-change",
+        "blur",
+        "mirror-image"
+      ],
     "born": {
         "place": "New York, New York, USA", 
         "date": -1288323623006
     }, 
-    "affiliations": [
-        "Good Guys 1"
-    ], 
-    "battery": {
-        "standbyTime": "336 hours", 
-        "talkTime": "24 hours", 
-        "type": "Other ( mAH)"
+    "association": { 
+        "allies": [
+          "The Brotherhood",
+          "The Good Guys"
+        ],
+        "enemies": [
+          "Bad Dudes",
+          "Read Bad Dudes"
+        ]
     }, 
-    "camera": {
-        "features": [
-            "Flash", 
-            "Video"
-        ], 
-        "primary": "5.0 megapixels"
+    "attribute": {
+        "strength": 6, 
+        "constitution": 6, 
+        "defense": 6, 
+        "dexterity": 6, 
+        "intelligence": 7, 
+        "charisma": 7, 
+        "wisdom": 5, 
+        "willpower": 7, 
+        "perception": 9, 
+        "luck": 9
     }, 
-    "connectivity": {
-        "bluetooth": "Bluetooth 2.1", 
-        "cell": "", 
-        "gps": true, 
-        "infrared": false, 
-        "wifi": "802.11 b/g/n"
-    }, 
-    "description": "Meld is a mutant who has the ability to make himself appear as different people to other people.", 
-    "display": {
-        "screenResolution": "WXGA (1200 x 800)", 
-        "screenSize": "10.1 inches", 
-        "touchScreen": true
-    }, 
+    "description": "Meld is a mutant who has the ability to make himself appear as different people to other people.",
     "hardware": {
         "accelerometer": true, 
         "audioJack": "3.5mm", 
@@ -55,8 +54,5 @@
         ], 
         "weight": "205.0 lbs"
     }, 
-    "storage": {
-        "flash": "32000MB", 
-        "ram": "1000MB"
-    }
+    "hairColor": "Brown"
 }
