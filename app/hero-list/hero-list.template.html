@@ -1,36 +1,35 @@
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-md-2">
-      <!--Sidebar content-->
+<div layout="row" flex>
+  <!--Sidebar content-->
+  <md-sidenav layout="column" class="md-sidenav-left md-whiteframe-z2" md-component-id="left" md-is-locked-open="$mdMedia('gt-sm')">
+  <!--md-sidenav layout="column" class="md-sidenav-left" md-component-id="left" md-is-locked-open="$mdMedia('gt-sm')"-->
+    <p>
+    Search:
+      <input ng-model="$ctrl.query" />
+    </p>
 
-      <p>
-        Search:
-        <input ng-model="$ctrl.query" />
-      </p>
+    <p>
+      Sort by:
+      <select ng-model="$ctrl.orderProp">
+        <option value="name">Alphabetical</option>
+        <option value="age">Newest</option>
+      </select>
+    </p>
+   </md-sidenav>
+   
+    <div layout="column" flex id="content">
+      <md-content layout="column" flex class="md-padding">
+          <ul class="heroes">
+            <li ng-repeat="hero in $ctrl.heroes | filter:$ctrl.query | orderBy:$ctrl.orderProp"
+                class="thumbnail hero-list-item">
+              <a href="#!/heroes/{{hero.id}}" class="thumb">
+                <img ng-src="{{hero.imageUrl}}" alt="{{hero.name}}" height="200" />
+              </a>
+              <a href="#!/heroes/{{hero.id}}">{{hero.name}}</a>
+              <p>{{hero.snippet}}</p>
+            </li>
+          </ul>
+        </md-content>
+      </div>
 
-      <p>
-        Sort by:
-        <select ng-model="$ctrl.orderProp">
-          <option value="name">Alphabetical</option>
-          <option value="age">Newest</option>
-        </select>
-      </p>
-
-    </div>
-    <div class="col-md-10">
-      <!--Body content-->
-
-      <ul class="heroes">
-        <li ng-repeat="hero in $ctrl.heroes | filter:$ctrl.query | orderBy:$ctrl.orderProp"
-            class="thumbnail hero-list-item">
-          <a href="#!/heroes/{{hero.id}}" class="thumb">
-            <img ng-src="{{hero.imageUrl}}" alt="{{hero.name}}" height="200" />
-          </a>
-          <a href="#!/heroes/{{hero.id}}">{{hero.name}}</a>
-          <p>{{hero.snippet}}</p>
-        </li>
-      </ul>
-
-    </div>
-  </div>
-</div>
+  <!--/div>
+</div-->
